@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>aaa</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.carousel3d.css">
+	<script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.js"></script>
+	<!-- jquery plugin -->
+	<script src="js/jquery.carousel3d.js"></script>
+</head>
+<body>
+	<!-- 主容器 -->
+	<div class="carousel3d-container carousel3d-container-3d">
+		<div id="content" class="carousel3d-wrapper" style="height: 460px">
+			<div class="item" style="background-image: url('https://7n.w3cschool.cn/attachments/day_161010/201610101756173797.png');"></div>
+			<div class="item" style="background-image: url('https://7n.w3cschool.cn/attachments/day_161010/201610101756173797.png');"></div>
+		</div>	
+		
+		<!-- 按钮控制 -->
+		<div class="btn-grp">
+			<div id="leftBtn" class="left-btn">左</div>
+			<div id="rightBtn" class="right-btn">右</div>
+		</div>
+		<!-- 圆点控制 -->
+		<div class="dot-grp"></div>
+	</div>	
+
+	<script>
+		
+		$(function () {
+
+			$("#content").carousel3d();
+
+		});
+
+	</script>
+</body>
+</html>
